@@ -1,0 +1,37 @@
+{
+  "userProfile": {
+    "name": "Prasad Kadam",
+    "email": "prasad@email.com",
+    "phone": "9876543210"
+  },
+  "netWorth": {
+    "total": 1500000,
+    "assets": {
+      "cash": 200000,
+      "investments": 800000,
+      "property": 500000
+    }
+  },
+  "income": 100000,
+  "expenses": 60000,
+  "investments": [
+    { "scheme": "Mutual Fund A", "amount": 50000, "current": 55000 },
+    { "scheme": "Stock B", "amount": 30000, "current": 28000 }
+  ],
+  "creditCards": [
+    { "bank": "HDFC", "limit": 100000, "used": 45000 }
+  ],
+  "goals": ["Buy Car", "Travel Europe"],
+  "spending": {
+    "groceries": 15000,
+    "rent": 20000,
+    "entertainment": 5000
+  },
+  "epf": {
+    "contribution": 15000,
+    "balance": 120000
+  },
+  "upcomingPayments": [
+    { "name": "EMI", "amount": 10000, "dueDate": "2025-08-10" }
+  ]
+}
