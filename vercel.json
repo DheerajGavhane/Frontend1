@@ -2,17 +2,7 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "outputDirectory": "dist",
-  "env": {
-    "VITE_API_BASE_URL": "@vite_api_base_url",
-    "VITE_MCP_SERVER_URL": "@vite_mcp_server_url"
-  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "destination": "/index.html"
-    }
   ]
 }
